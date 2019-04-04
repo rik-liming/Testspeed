@@ -1,0 +1,34 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+<script src="jquery.js"></script>
+<script>
+     document.write("<script type='text/javascript' src='ping.js?version="+Math.random()+"'><\/script>"); 
+</script>
+</head>
+<body>
+<div class="panel panel-primary" style="max-width: 400px; margin: 10px auto;">
+	<div class="panel-heading">
+		<h3 class="panel-title">Network Test</h3>
+	</div>
+	<div class="panel-body">
+
+		<div class="alert alert-success">
+		<strong>Click start button to operate network test!</strong>
+		</div>
+		<div id="testingInfo" class="alert alert-danger hidden">
+		<strong>Testing, please wait...</strong>
+		</div>
+		
+		<div class="form-group">
+		    <button id="startBtn" class="btn btn-lg btn-success col-lg-5" onclick="startTestSpeed();">start</button>
+		</div>
+		<div class="form-group">
+		    <button id="uploadBtn" class="btn btn-lg btn-info col-lg-5 col-lg-offset-2 disabled" onclick="uploadResult();">upload</button>
+		</div>
+		
+
+	</div>
+</div>
+</body>
+</html>
