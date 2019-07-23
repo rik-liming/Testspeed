@@ -1,2 +1,2 @@
-# testspeed
-a simple javascrpit can test network speed
+# Testspeed
+A simple javascrpit can test network speed
